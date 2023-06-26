@@ -14,7 +14,7 @@ The genetic data is clusterd using k-means and hierarchial clustering algorithms
 
 For survavial analysis Kaplan - Meier Survival Curve an Cox's propotional hazard model is used to understand the effects of clinical attributes on survival.
 
-## results
+## Results
 For chemotherapy as a treatment option prediction ROSE method showed a slightly better accuracy. For both algorithms  random forest model showed the highst accuracy.
 
 For death_from_cancer prediction SVM showed the most accuracy.
