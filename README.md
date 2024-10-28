@@ -8,11 +8,11 @@ The primary objectives of this study are to predict patient survival using clini
 ## Method
 The models used for both predictions are  Support Vector Machines, Random Forest and Gradient Boosting methods.
 
-As the dependent varible chemotherapy has a imbalanced distribution, SMOTE and ROSE algorithms are used for resampling and the accuracy after using the two algorithms are compred.
+As the dependent variable chemotherapy has a imbalanced distribution, SMOTE and ROSE algorithms are used for resampling and the accuracy after using the two algorithms are compred.
 
 The genetic data is clusterd using k-means and hierarchial clustering algorithms and ARI was calculated to see any association with the labels.
 
-For survavial analysis Kaplan - Meier Survival Curve an Cox's propotional hazard model is used to understand the effects of clinical attributes on survival.
+For survival analysis Kaplan - Meier Survival Curve and Cox's propotional hazard model is used to understand the effects of clinical attributes on survival.
 
 ## Results
 For chemotherapy as a treatment option prediction ROSE method showed a slightly better accuracy. For both algorithms  random forest model showed the highst accuracy.
